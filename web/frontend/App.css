@@ -1,0 +1,129 @@
+.Polaris-Modal-Dialog__Modal.Polaris-Modal-Dialog--sizeFullScreen {
+  width: 100dvw !important;
+  height: 100dvh !important;
+  max-width: 100dvw !important;
+  max-height: 100dvh !important;
+}
+
+a,
+a:visited {
+  color: #005bd3;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #004299;
+  text-decoration: underline;
+}
+
+.ellipsis {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+}
+
+.ellipsis--1 {
+  -webkit-line-clamp: 1;
+}
+
+.ellipsis--2 {
+  -webkit-line-clamp: 2;
+}
+
+.ellipsis--3 {
+  -webkit-line-clamp: 3;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.break-spaces {
+  white-space: break-spaces !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.ratio-1 {
+  aspect-ratio: 1;
+}
+
+.ratio-1_2 {
+  aspect-ratio: 1/2;
+}
+
+.ratio-3_4 {
+  aspect-ratio: 3/4;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-0 {
+  width: 0%;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-default {
+  cursor: default;
+}
+
+.position-sticky {
+  position: sticky;
+}
+
+.border-card {
+  border: 1px solid lightgray;
+  border-radius: 0.5rem;
+}
+
+.animation-blink {
+  animation: blink 1.5s infinite;
+}
+
+.animation-shine {
+  background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
+  background-size: 400px 100%;
+  border-radius: 4px;
+  animation: shine 1.5s infinite linear;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+
+@keyframes shine {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: 200px 0;
+  }
+}
+
